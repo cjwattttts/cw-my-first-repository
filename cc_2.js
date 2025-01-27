@@ -19,4 +19,12 @@ employee.department = "Electronics";
 employee.position = "Assistant Manager";
 console.log("Updated Employee Position:", employee);
 
+let customers = [
+    {name: "Sarah Jane" email: "sarahjane@gmail.com", purchaseAmount: 200},
+    {name: "Ethan Marks" email: "marks10@gmail.com", purchaseAmount: 367},
+    {name: "Emily Jacobs" email: "emmyj2@gmail.com", purchaseAmount: 850},
+];
+let newCustomers = {name: "Jimmy Bonds," email: "Jbond34@yahoo.com", purchaseAmount 260};
+console.log("Customer database:", customers);
+
 
