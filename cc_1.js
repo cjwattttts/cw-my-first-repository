@@ -28,3 +28,19 @@ let customerName = "Mark Smith";
 let welcomeMessage = "Welcome, " +customerName;
 console.log(welcomeMessage);
 
+let isLoggedIn = true;
+let userRole = "Admin";
+if (isLoggedIn) {
+    console.log("Welcome, " + userRole);
+} else {
+    console.log("Please log in");
+} 
+if (isLoggedIn && userRole === "Admin") {
+    console.log("Welcome, Admnin") 
+} else {
+    console.log("Please log in");
+}
+if (!isLoggedIn) {
+    console.log("Please log in");
+} else (userRole === "Admin")
+    console.log ("Welcome, Admin");
