@@ -24,3 +24,7 @@ console.log("After interest: $" + accountBalance)
 accountBalance /= 2;
 console.log("After half: $" + accountBalance)
 
+let customerName = "Mark Smith";
+let welcomeMessage = "Welcome, " +customerName;
+console.log(welcomeMessage);
+
