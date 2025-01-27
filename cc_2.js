@@ -27,4 +27,13 @@ let customers = [
 let newCustomers = {name: "Jimmy Bonds," email: "Jbond34@yahoo.com", purchaseAmount 260};
 console.log("Customer database:", customers);
 
-
+let order = {
+    orderId: 99090, 
+    customerName: "Sarah Jane",
+    amount: 200,
+    calculateTax: function() {
+        return this.amount * 0.10;
+    }
+};
+console.log("Order Details:", order);
+console.log("Tax Amount:", order.calculateTax().toFixed(2));
