@@ -14,3 +14,13 @@ console.log ("Product Name:", productName, "| Type:", typeof productName);
 console.log ("Product Price:", productPrice, "| Type:", typeof productPrice);
 console.log ("Is Available:", isAvailable, "| Type:", typeof isAvailable);
 
+let accountBalance = 800;
+accountBalance += 500;
+console.log("After deposit: $" + accountBalance)
+accountBalance -= 200;
+console.log("After withdrawal: $" + accountBalance)
+accountBalance *= 1.05;
+console.log("After interest: $" + accountBalance)
+accountBalance /= 2;
+console.log("After half: $" + accountBalance)
+
