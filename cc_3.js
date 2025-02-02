@@ -22,3 +22,12 @@ employee.performaceScore = 90; // perfomance score fell
 employee.promotionEligible = employee.performanceScore >= 90 // assesing employee eligibility
 console.log('Employee Updated', employee); // logs updated employee in console
 
+//TASK 4
+let feedback = [
+    { customerName: 'Hugo', feedbackText: 'Very quick and helpful.', rating: 10 }, // declares Hugo's rating
+    { customerName: 'Kate', feedbackText: 'Extremely kind!', rating: 9 } // declares Kate's rating
+    { customerName: 'Ben', feedbackText: 'Took too long, not satisfied.', rating: 3 } // declares Ben's rating
+];
+feedback.push({ customerName: 'Claire', feedbackText: 'Brilliant and super helpful!', rating: 8}); // adds Claire's feedback to array
+console.log('Customer Feedback:', feedback); // logs customer feedback in console
+
