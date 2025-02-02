@@ -34,11 +34,11 @@ console.log('Customer Feedback:', feedback); // logs customer feedback in consol
 // TASK 5
 let inventory = {
     itemName: 'Transmitter', // sets item name
-    stockCount: '350', // sets stock count
+    stockCount: 350, // sets stock count
     price: 200 // sets item price
 };
 inventory.calculateTotalValue = function() {
     return this.stockCount * this.price; // calculates total stock value
 };
-console.log('Inventory Information:', inventory;) // logs inventory details to console
+console.log('Inventory Information:', inventory); // logs inventory details to console
 console.log('Total Inventory Value', inventory.calculateTotalValue()); // logs total value to console
