@@ -15,10 +15,10 @@ console.log('Order Count Total', totalOrders); // updates order count total in c
 let employee = {
     name: 'Jack Shepard', // sets name
     role: 'Business Analyst', // sets position
-    performaceScore: 95, // sets performance score
+    performanceScore: 95, // sets performance score
     isActive: true // employee is currently working in company 
 };
-employee.performaceScore = 90; // perfomance score fell
+employee.performanceScore = 90; // perfomance score fell
 employee.promotionEligible = employee.performanceScore >= 90 // assesing employee eligibility
 console.log('Employee Updated', employee); // logs updated employee in console
 
