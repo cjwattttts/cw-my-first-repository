@@ -56,13 +56,13 @@ let orders = [100, 105, 110]; // declares an array of order IDs
 
  // TASK 9
  let applyDiscount = function(price, discount) {
-    return price - (price * discount / 60); // calculates the discounted price
+    return price - (price * discount / 100); // calculates the discounted price
  }
  let discountedPrice = applyDiscount(150, 10); // applies a discount of 10 percent to a price of 150
- console.log('Price Discount: $${discountedPrice}'); // logs the discounted price to the console
+ console.log(`Price Discount: $${discountedPrice}`); // logs the discounted price to the console
 
  // TASK 10 
 let pointsCalculation = amount => amount / 10; // arrow function that calculates loyalty points
 let points = pointsCalculation(175); // calculates points for a purchase of 175
-console.log('Points: ${points}'); // logs the loyalty points to console
+console.log(`Points: ${points}`); // logs the loyalty points to console
 
