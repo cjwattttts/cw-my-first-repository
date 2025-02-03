@@ -39,3 +39,10 @@ let products = ["Camera", "Charger", "Adaptor"]; // establishes the products
 for (let product of products) { // displays each product
     console.log('Product: ${product}');
 }
+
+// TASK 7
+let orders = [100, 105, 110]; // declares an array of order IDs
+ orders.forEach(order => { // logs each order ID
+    console.log('Order IDs: ${order}') // records each order ID to the log
+ })
+ 
