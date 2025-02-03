@@ -27,3 +27,9 @@ do {
     responses++; 
 console.log('Response amoint: ${responses}'); // records the response amount
 } while (responses <3); //  keeps looping until 3 responses collected
+
+// TASK 5
+let employee = { name: "Alice", position: "Manager", salary: 7500 }; // declares Alice as the manager
+for (let key in employee) { // iterates through object properties
+    console.log('${key}: ${employee[key]}'); 
+}
