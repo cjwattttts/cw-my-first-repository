@@ -45,4 +45,10 @@ let orders = [100, 105, 110]; // declares an array of order IDs
  orders.forEach(order => { // logs each order ID
     console.log('Order IDs: ${order}') // records each order ID to the log
  })
+
+ // TASK 8
+ function calculateTax(amount, taxRate) { // takes the tax rate and amount
+    return amount * taxRate; // returns the calculate tax amount
+ }
+ let tax = calculateTax(60, 0.04);
  
