@@ -26,7 +26,7 @@ let responses = 0; // sets initital response value
 
 do {
     responses++; 
-console.log('Response amoint: ${responses}'); // records the response amount
+console.log(`Response amount: ${responses}`); // records the response amount
 } while (responses <3); //  keeps looping until 3 responses collected
 
 // TASK 5
