@@ -19,3 +19,11 @@ while (stock > 0) {
     stock--; // decreases stock until it reaches 0
     console.log ('Remaining stock: ${stock}');
 }
+
+// TASK 4 
+let responses = 0; // sets initital response value
+
+do {
+    responses++; 
+console.log('Response amoint: ${responses}'); // records the response amount
+} while (responses <3); //  keeps looping until 3 responses collected
