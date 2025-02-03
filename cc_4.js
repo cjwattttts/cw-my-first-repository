@@ -51,4 +51,12 @@ let orders = [100, 105, 110]; // declares an array of order IDs
     return amount * taxRate; // returns the calculate tax amount
  }
  let tax = calculateTax(60, 0.04);
+
+ // TASK 9
+ let applyDiscount = function(price, discount) {
+    return price - (price * discount / 60); // calculates the discounted price
+ }
+ let discountedPrice = applyDiscount(150, 10); // applies a discount of 10 percent to a price of 150
+ console.log('Price Discount: $${discountedPrice}'); // logs the discounted price to the console
+
  
