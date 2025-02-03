@@ -35,7 +35,7 @@ for (let key in employee) { // iterates through object properties
     console.log(`${key}: ${employee[key]}`); 
 }
 
-//TASK 6 
+// TASK 6 
 let products = ["Camera", "Charger", "Adaptor"]; // establishes the products
 for (let product of products) { // displays each product
     console.log(`Product: ${product}`);
