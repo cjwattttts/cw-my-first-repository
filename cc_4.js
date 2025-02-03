@@ -12,3 +12,10 @@ for (let i = 0; i < sales.length; i++) {
     totalSales += sales[i]; // adds each sale to the total sales
 }
 console.log ('Total sales: $${totalSales}');
+
+// TASK 3
+let stock = 10; // sets the initital stock value
+while (stock > 0) {
+    stock--; // decreases stock until it reaches 0
+    console.log ('Remaining stock: ${stock}');
+}
