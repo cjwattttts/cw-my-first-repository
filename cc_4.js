@@ -18,7 +18,7 @@ console.log (`Total sales: $${totalSales}`);
 let stock = 10; // sets the initital stock value
 while (stock > 0) {
     stock--; // decreases stock until it reaches 0
-    console.log ('Remaining stock: ${stock}');
+    console.log (`Remaining stock: ${stock}`);
 }
 
 // TASK 4 
@@ -30,9 +30,9 @@ console.log('Response amoint: ${responses}'); // records the response amount
 } while (responses <3); //  keeps looping until 3 responses collected
 
 // TASK 5
-let employee = { name: "Alice", position: "Manager", salary: 7500 }; // declares Alice as the manager
+let employee = { name: "Alice", position: "Manager", salary: 75000 }; // declares Alice as the manager
 for (let key in employee) { // iterates through object properties
-    console.log('${key}: ${employee[key]}'); 
+    console.log(`${key}: ${employee[key]}`); 
 }
 
 //TASK 6 
